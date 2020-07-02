@@ -37,25 +37,7 @@ def score_predict():
 
   output='{0:.{1}f}'.format(result[0][0], 2)
       
-
-
-
-
-
-
-
   return render_template("index.html", pred = "Your expected score is : {}".format(output))
-
-
-
-
-
-    
-
-
- 
-    
-
 
 
 if __name__ == '__main__':
